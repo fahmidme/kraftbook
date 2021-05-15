@@ -1,0 +1,87 @@
+.storybook-button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 26px;
+  letter-spacing: 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 19px;
+
+  width: 93px;
+  height: 40px;
+
+  border: 0;
+  border-radius: 6px;
+}
+.storybook-button-icon {
+  width: 125px;
+}
+.storybook-button div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/** Primary Button **/
+.storybook-button--primary {
+  color: white;
+  background-color: #003946;
+}
+.storybook-button--primary .icon path {
+  fill: #fff;
+}
+.storybook-button--primary:hover {
+  background-color: #33616B;
+}
+.storybook-button--primary:disabled {
+  background-color: #C8C8C8;
+  color: #424242;
+}
+.storybook-button--primary:disabled .icon path {
+  fill: #424242;
+}
+.storybook-button--primary:focus {
+  background-color: #5E8188;
+}
+.icon {
+  margin-right: 12px;
+}
+
+/** Secondary Button **/
+.storybook-button--secondary {
+  color: #003946;
+  background-color: transparent;
+
+  /* SLF Blue/100 */
+  border: 1px solid #003946;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.storybook-button--secondary .icon path {
+  fill: #003946;
+}
+.storybook-button--secondary:hover {
+  border-color: #33616B;
+  color: #33616B;
+}
+.storybook-button--secondary:hover .icon path {
+  fill: #33616B;
+}
+.storybook-button--secondary:disabled {
+  border-color: #C8C8C8;
+  color: #424242;
+}
+.storybook-button--secondary:disabled .icon path {
+  fill: #424242;
+}
+.storybook-button--secondary:focus {
+  border-color: #5E8188;
+  color: #5E8188;
+}
+.storybook-button--secondary:focus .icon path {
+  fill: #5E8188;
+}
