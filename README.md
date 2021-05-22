@@ -1,5 +1,7 @@
 # Storybook, Figma, and React Test
 
+![](https://i.ibb.co/LZqWLht/Screen-Shot-2021-05-22-at-2-04-14-PM.png)
+
 This project is a simple test for Storybook integration with React.
 
 Figma Project: https://www.figma.com/file/fe8NCZENZxnHMbQFR5Y7nt/KRFTWRK---Dev-Demo?node-id=0%3A1
